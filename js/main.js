@@ -1,3 +1,4 @@
+//BANNERS SLIDE
 var swiper = new Swiper(".bg-slider-thumbs", {
     loop: true,
     spaceBetween: 0,
@@ -10,4 +11,10 @@ var swiper = new Swiper(".bg-slider-thumbs", {
     thumbs: {
       swiper: swiper,
     },
+  });
+
+  //EFEITO HEADER 
+  window.addEventListener("scroll", function(){
+    const header = this.document.querySelector("header")
+    header.classList.toggle("sticky", window.scrollY > 0);
   });
