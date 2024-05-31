@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*CORES*/
 :root{
     --all-color: #346376;
 
@@ -7,6 +8,7 @@
     --box-shadow: 0 5px 25px rgb(0 0 0 / 20%)
 }
 
+/*BARRA LATERAL DIREITA DO SITE*/
 ::-webkit-scrollbar{
     width: 11px;
     background: white;
@@ -17,6 +19,7 @@
     background: var(--all-color);
 }
 
+/*CORPO DO SITE*/
 *{
     margin: 0;
     padding: 0;
@@ -283,11 +286,9 @@ span{
     font-size: 1.7em;
     margin: 10px 0;
 }
-
 /*FIM DO HEADER E BANNER*/
 
 /*COMEÇO DAS SEÇÕES*/
-
 .about h2{
     font-size: 3em;
     font-weight: 600;
@@ -295,4 +296,64 @@ span{
 
 .about p{
     margin: 25px 0;
+}
+/*FIM DAS SEÇÕES*/
+
+/*RESPONSIVIDADE (MAX WIDTH: 1100PX)*/
+@media screen and (max-width: 1100px){
+    header .nav-bar{
+        padding: 0 50px;
+    }
+
+    .section{
+        padding: 25px 50px;
+    }
+
+    .media-icons{
+        right: 0;
+        margin-right: 50px;
+    }
+
+    .swiper-slide .text-content{
+        margin: 0 120px 0 50px;
+    }
+
+    .bg-slider-thumbs{
+        bottom: 3em;
+    }
+}
+
+/*RESPONSIVIDADE (MAX WIDTH: 785PX)*/
+@media screen and (max-width: 785px){
+    header .nav-bar{
+        padding: 25px 20px;
+    }
+
+    .section{
+        padding: 25px 20px;
+    }
+
+    .media-icons{
+        margin-right: 20px;
+    }
+
+    .media-icons a{
+        font-size: 1.5em;
+    }
+
+    .swiper-slide .text-content{
+        margin: 0 70px 0 20px;
+    }
+
+    .swiper-slide .text-content .title{
+        font-size: 3em;
+    }
+
+    .swiper-slide .text-content .title span{
+        font-size: 0.35em;
+    }
+
+    .swiper-slide .text-content p{
+        font-size: 0.9em;
+    }
 }
