@@ -16,6 +16,15 @@ body{
     background: #fff;
 }
 
+section{
+    position: relative;
+}
+
+.section{
+    padding: 35px 200px;
+    transition: 0.3s ease;
+}
+
 /*COMEÇO DO HEADER E BANNER*/
 
 header{
@@ -257,3 +266,12 @@ span{
 /*FIM DO HEADER E BANNER*/
 
 /*COMEÇO DAS SEÇÕES*/
+
+.about h2{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.about p{
+    margin: 25px 0;
+}
