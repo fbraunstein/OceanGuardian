@@ -236,3 +236,18 @@ span{
     border: 1px solid white;
 }
 
+.media-icons{
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 90px;
+}
+
+.media-icons a{
+    color: white;
+    font-size: 1.7em;
+    margin: 10px 0;
+}
