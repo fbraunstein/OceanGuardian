@@ -16,6 +16,8 @@ body{
     background: #fff;
 }
 
+/*COMEÇO DO HEADER E BANNER*/
+
 header{
     z-index: 999;
     position: fixed;
@@ -251,3 +253,7 @@ span{
     font-size: 1.7em;
     margin: 10px 0;
 }
+
+/*FIM DO HEADER E BANNER*/
+
+/*COMEÇO DAS SEÇÕES*/
