@@ -41,7 +41,6 @@ section{
 }
 
 /*COMEÇO DO HEADER E BANNER*/
-
 header{
     z-index: 999;
     position: fixed;
@@ -57,7 +56,7 @@ header{
 
 header.sticky{
     height: calc(2.5rem + 1rem);
-    background: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.50);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -77,7 +76,7 @@ header .nav-bar{
 }
 
 .logo{
-    color: black;
+    color: white;
     font-size: 2em;
     font-weight: 800;
     letter-spacing: 2px;
@@ -86,7 +85,7 @@ header .nav-bar{
 }
 
 .nav-bar{
-    color: black;
+    color: white;
     font-size: 0.7em;
     font-weight: 500;
     letter-spacing: 2px;
@@ -95,7 +94,7 @@ header .nav-bar{
 }
 
 .navigation .nav-items a{
-    color: black;
+    color: white;
     font-size: 1em;
     text-decoration: none;
 }
@@ -361,7 +360,7 @@ span{
 /*MENU NAV PARA MOBILE*/
 .nav-menu-btn{
     display: block;
-    color: black;
+    color: white;
     font-size: 2em;
     cursor: pointer;
 }
