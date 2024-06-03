@@ -184,7 +184,7 @@ header .nav-bar{
 }
 
 span{
-    text-decoration: underline;
+    font-weight: bold;
     text-shadow: var(--text-shadow);
 }
 
@@ -444,6 +444,10 @@ span{
 }
 
 /*COMEÇO DAS SEÇÕES*/
+#info{
+    text-align: center;
+}
+
 .about h2{
     font-size: 3em;
     font-weight: 600;
@@ -455,30 +459,30 @@ span{
 }
 
 .sec-img{
-    width: 300px;
+    width: 500px;
     border-radius: 15px;
-    display: flex;
 }
 
 #sec-img2{
     width: 500px;
     border-radius: 15px;
-    display: flex;
-}
-
-.right-txt{
-    color: white;
-}
-
-.container{
-    background: var(--all-color);
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
 }
 
 h6{
     padding: 5px 80px;
     opacity: 50%;
+}
+
+/*FOOTER*/
+footer {
+    background: var(--all-color);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
 }
