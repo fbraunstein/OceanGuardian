@@ -60,7 +60,7 @@ header{
 
 header.sticky{
     height: calc(2.5rem + 1rem);
-    background: rgba(0, 0, 0, 0.50);
+    background: #34637680;
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -451,5 +451,24 @@ span{
 
 .about p{
     margin: 25px 0;
-    font-size: 0.9em;
+    font-size: 1em;
+}
+
+.sec-img{
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.container1{
+    background: var(--all-color);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h6{
+    padding: 5px 80px;
+    opacity: 50%;
 }
