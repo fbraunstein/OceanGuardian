@@ -31,6 +31,10 @@ body{
     background: #fff;
 }
 
+a{
+    text-decoration: none;
+}
+
 section{
     position: relative;
 }
