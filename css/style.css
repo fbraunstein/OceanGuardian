@@ -460,7 +460,17 @@ span{
     display: flex;
 }
 
-.container1{
+#sec-img2{
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.right-txt{
+    color: white;
+}
+
+.container{
     background: var(--all-color);
     border-radius: 15px;
     display: flex;
