@@ -60,7 +60,7 @@ header{
 
 header.sticky{
     height: calc(2.5rem + 1rem);
-    background: #34637680;
+    background: #346376;
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -184,6 +184,7 @@ header .nav-bar{
 }
 
 span{
+    color: var(--all-color);
     font-weight: bold;
     text-shadow: var(--text-shadow);
 }
@@ -449,27 +450,41 @@ span{
 }
 
 .about h2{
+    color: var(--all-color);
     font-size: 3em;
     font-weight: 600;
+    text-shadow: var(--text-shadow);
 }
 
 .about p{
     margin: 25px 0;
     font-size: 1em;
+    text-shadow: var(--text-shadow);
 }
 
 .sec-img{
     width: 500px;
     border-radius: 15px;
+    border: 4px solid var(--all-color);
 }
 
-#sec-img2{
-    width: 500px;
+.sec-img2{
+    width: 250px;
     border-radius: 15px;
+    border: 4px solid var(--all-color);
+}
+
+h3{
+    color: var(--all-color);
 }
 
 h6{
-    opacity: 30%;
+    color: var(--all-color);
+    opacity: 35%;
+}
+
+.line{
+    color: var(--all-color);
 }
 
 /*FOOTER*/
