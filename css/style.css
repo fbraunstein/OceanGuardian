@@ -58,6 +58,14 @@ header{
     transition-property: height, background;
 }
 
+.nav-right{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    display: inline-flex;
+    padding: 30px;
+}
+
 header.sticky{
     height: calc(2.5rem + 1rem);
     background: #346376;
@@ -77,6 +85,11 @@ header .nav-bar{
 
 .nav-close-btn, .nav-menu-btn{
     display: none;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+
+.nav-menu-btn:hover{
+    transform: scale(1.2);
 }
 
 .logo{
