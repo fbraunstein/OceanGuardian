@@ -420,6 +420,14 @@ span{
     opacity: 1;
 }
 
+.nav-items a{
+    color: var(--all-color);
+}
+
+.nav-items a:hover{
+    text-decoration: underline;
+}
+
 .navigation .nav-items{
     position: relative;
     background: white;
@@ -440,7 +448,7 @@ span{
 }
 
 .navigation .nav-items a{
-    color: black;
+    color: var(--all-color);
     font-size: 1em;
     margin: 15px 50px;
     transition: 0.3s ease;
