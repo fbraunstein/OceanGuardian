@@ -66,6 +66,10 @@ header{
     padding: 30px;
 }
 
+.nav-right:hover{
+    text-decoration: underline;
+}
+
 header.sticky{
     height: calc(2.5rem + 1rem);
     background: #346376;
