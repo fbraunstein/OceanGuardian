@@ -81,3 +81,9 @@ var swiper = new Swiper(".bg-slider-thumbs", {
     })
 
 }
+
+// Adicionado listener para o evento DOMContentLoaded
+document.addEventListener("DOMContentLoaded", function() {
+  alert('Olá, seja bem-vindo ao site do projeto OceanGuardian!');
+  medidas();
+});

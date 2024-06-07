@@ -149,3 +149,27 @@ form .btn input:hover{
     background: white;
     color: #346376;
 }
+
+.btnn{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: white;
+    color: #346376;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 60px;
+    font-weight: 600;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    margin-bottom:30px;
+    transition: all .50s ease;
+}
+
+.btnn:hover{
+    background: #346376;
+    color: white;
+}
