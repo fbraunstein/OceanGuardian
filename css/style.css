@@ -512,6 +512,39 @@ h6{
     color: var(--all-color);
 }
 
+.medicao{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 6rem 6rem 3rem;
+    padding: 0 2rem;
+    gap:2rem;
+}
+
+.medicao-item{
+    color: #346376;
+    width: 25%;
+}
+
+.medicao-item span{
+    font-size: 3rem;
+    color:var(--text-color3);
+}
+.medicao-item h3{
+    color: #346376;
+    font-size: 1rem;
+    font-weight: 700;
+    color:var(--main-color);
+    text-transform: uppercase;
+    margin-top: 1.5rem;
+}
+
+.medicao-item p{
+    color:var(--text-color1);
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
 /*FOOTER*/
 footer {
     background: var(--all-color);
